@@ -1,0 +1,189 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.navbar-brand {
+    font-family: 'Montserrat';
+    font-weight: 700;
+}
+.navbar-brand img{
+    width: 40px;
+    height: 60px;
+    box-sizing: border-box;
+}
+.navbar-nav .logo img {
+    width: 60px;
+    height: 28px;
+    
+}
+.hole {
+    overflow-x: hidden;
+    padding: 20px 0;
+    background-color: white;
+    white-space: nowrap;
+}
+.logo-slide {
+    display: inline-block;
+    animation: 10s slide infinite linear;
+}
+.logo-slide img {
+    height: 50px;
+    margin: 0 30px;
+}
+.product {
+    display: flex;
+    flex-wrap: wrap;
+}
+.product .card {
+    margin-top: 10px;
+    margin-right: 30px;
+}
+
+.content {
+    margin-top: 100px;
+    height: 200px;
+}
+.content p {
+    font-weight: 700;
+}
+.product .card {
+    border: 0px;
+    box-shadow: 1px 2px 1px rgba(0, 0, 0, .4);
+    transition: .5s;
+}
+.product .card:hover {
+    
+    background-color: rgb(220, 220, 220);
+    background-size: cover;
+}
+.product .one .imgone {
+    position: absolute;
+    opacity: 0;
+    transition: .5s;
+}
+.product .one .imgone:hover {
+    opacity: 1;
+}
+.product .three .imgthree {
+    position: absolute;
+    opacity: 0;
+    transition: .5s;
+}
+.product .three .imgthree:hover {
+    opacity: 1;
+}
+.product .five .imgfive {
+    position: absolute;
+    opacity: 0;
+    transition: .5s;
+}
+.product .five .imgfive:hover {
+    opacity: 1;
+}
+.product .six .imgsix {
+    position: absolute;
+    opacity: 0;
+    transition: .5s;
+}
+.product .six .imgsix:hover {
+    opacity: 1;
+}
+.product .seven .imgseven {
+    position: absolute;
+    opacity: 0;
+    transition: .5s;
+}
+.product .seven .imgseven:hover {
+    opacity: 1;
+}
+.product .nine .imgnine {
+    position: absolute;
+    opacity: 0;
+    transition: .5s;
+}
+.product .nine .imgnine:hover {
+    opacity: 1;
+}
+.product .ten .imgten {
+    position: absolute;
+    opacity: 0;
+    transition: .5s;
+}
+.product .ten .imgten:hover {
+    opacity: 1;
+}
+.product .fourteen .imgfourteen {
+    position: absolute;
+    opacity: 0;
+    transition: .5s;
+}
+.product .fourteen .imgfourteen:hover {
+    opacity: 1;
+}
+.product .fiveteen .imgfiveteen {
+    position: absolute;
+    opacity: 0;
+    transition: .5s;
+}
+.product .fiveteen .imgfiveteen:hover {
+    opacity: 1;
+}
+.product .sixteen .imgsixteen {
+    position: absolute;
+    opacity: 0;
+    transition: .5s;
+}
+.product .sixteen .imgsixteen:hover {
+    opacity: 1;
+}
+.product .seventeen .imgseventeen {
+    position: absolute;
+    opacity: 0;
+    transition: .5s;
+}
+.product .seventeen .imgseventeen:hover {
+    opacity: 1;
+}
+.product .eighteen .imgeighteen {
+    position: absolute;
+    opacity: 0;
+    transition: .5s;
+}
+.product .eighteen .imgeighteen:hover {
+    opacity: 1;
+}
+.product .nineteen .imgnineteen {
+    position: absolute;
+    opacity: 0;
+    transition: .5s;
+}
+.product .nineteen .imgnineteen:hover {
+    opacity: 1;
+}
+.product .twenty .imgtwenty {
+    position: absolute;
+    opacity: 0;
+    transition: .5s;
+}
+.product .twenty .imgtwenty:hover {
+    opacity: 1;
+}
+.product .twentytwo .imgtwentytwo {
+    position: absolute;
+    opacity: 0;
+    transition: .5s;
+}
+.product .twentytwo .imgtwentytwo:hover {
+    opacity: 1;
+}
+
+/* animasi */
+@keyframes slide {
+    from {
+        transform: translateX(0);
+    }
+    to {
+        transform: translateX(-100%);
+    }
+}
