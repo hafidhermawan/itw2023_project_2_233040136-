@@ -1,9 +1,7 @@
 * {
     margin: 0;
     padding: 0;
-}
-.home {
-    height: 500px;
+    box-sizing: border-box;
 }
 .navbar-brand {
     font-family: 'Montserrat';
@@ -12,13 +10,13 @@
 .navbar-brand img{
     width: 40px;
     height: 60px;
+    box-sizing: border-box;
 }
 .navbar-nav .logo img {
     width: 60px;
     height: 28px;
     
 }
-
 .content {
     margin-top: 150px;
 }
@@ -29,7 +27,7 @@
     font-weight: 700;
 }
 
-.content{
+.content {
     overflow-y: hidden;
     width: 100%;
     text-align: start;
@@ -39,28 +37,9 @@
 .content p {
     font-weight: 700;
 }
-.hole {
-    overflow-x: hidden;
-    padding: 20px 0;
-    background-color: white;
-    white-space: nowrap;
-}
-.logo-slide {
-    display: inline-block;
-    animation: 10s slide infinite linear;
-}
-.logo-slide img {
-    height: 50px;
-    margin: 0 30px;
-}
-
-
-/* animasi */
-@keyframes slide {
-    from {
-        transform: translateX(0);
-    }
-    to {
-        transform: translateX(-100%);
-    }
+.overlay {
+    position: relative;
+    width: 1000px;
+    height: 1000px;
+    background-color: aquamarine;
 }
